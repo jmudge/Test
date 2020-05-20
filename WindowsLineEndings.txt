@@ -1,3 +1,0 @@
-File with Windows LF / CR line endings
-Another line
-and another
