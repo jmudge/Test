@@ -23,7 +23,21 @@ Here, parties exchanging information in accordance with the SPDX specification n
 | Format | Example |
 | -------- | ------- |
 | Tag/Value | `SPDXVersion: SPDX-2.2` |
-| RDF | `<SpdxDocument rdf:about="...">`<br>&nbsp;&nbsp;&nbsp;`<specVersion>SPDX-2.2</specVersion>`<br>`</SpdxDocument>`<br>This specification uses the prefix `rdf:` to refer to the [RDF/XML][rdf] namespace:<br>`http://www.w3.org/1999/02/22-rdf-syntax-ns#` |
+| RDF | <sup>[1](#myfootnote1)</sup> |
+
+<a name="myfootnote1">1</a>: Footnote content goes here
+```text
+<SpdxDocument rdf:about="...">
+   <specVersion>SPDX-2.2</specVersion>
+</SpdxDocument>
+```
+
+This specification uses the prefix `rdf:` to refer to the [RDF/XML][rdf] namespace:
+
+```text
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+```
+
 
 ## 6.2 Data license field <a name="2.2"></a>
 
