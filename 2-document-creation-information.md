@@ -23,9 +23,9 @@ Here, parties exchanging information in accordance with the SPDX specification n
 | Format | Example |
 | -------- | ------- |
 | Tag/Value | `SPDXVersion: SPDX-2.2` |
-| RDF | <sup>[1](#myfootnote1)</sup> |
+| RDF | <sup>[1](#SPDXversionRDF)</sup> |
 
-<a name="myfootnote1">1</a>: Footnote content goes here
+<a name="SPDXversionRDF">1</a>: SPDX version field RDF Example
 ```text
 <SpdxDocument rdf:about="...">
    <specVersion>SPDX-2.2</specVersion>
