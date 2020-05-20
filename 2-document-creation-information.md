@@ -23,9 +23,9 @@ Here, parties exchanging information in accordance with the SPDX specification n
 | Format | Example |
 | -------- | ------- |
 | Tag/Value | `SPDXVersion: SPDX-2.2` |
-| RDF | <sup>[1](#SPDXversionRDF)</sup> |
+| RDF | <sup>[a](#SPDXversionRDF)</sup> |
 
-<a name="SPDXversionRDF">1</a>: SPDX version field RDF example
+<sup><a name="SPDXversionRDF">a</a></sup> SPDX version field RDF example
 ```text
 <SpdxDocument rdf:about="...">
    <specVersion>SPDX-2.2</specVersion>
@@ -64,9 +64,9 @@ This is to alleviate any concern that content (the data or database) in an SPDX 
 | Format | Example |
 | -------- | ------- |
 | Tag/Value | `DataLicense: CC0-1.0` |
-| RDF | <sup>[2](#DataLicenseRDF)</sup> |
+| RDF | <sup>[a](#DataLicenseRDF)</sup> |
 
-<a name="DataLicenseRDF">2</a>: Data license field RDF example
+<sup><a name="DataLicenseRDF">a</a></sup> Data license field RDF example
 
 ```text
 <SpdxDocument rdf:about="...">
